@@ -13,7 +13,7 @@ This simple script employs [pandoc](https://pandoc.org/) under the hood, and can
 
 Converts all files in current directory from one type to another.
 
-< 40 lines of code
+< 20 lines of functional code
 
 ## Usage at the command line (Linux/Bash, cmd, powershell): 
 `$ python conv-doc <Input File Type> <Output File Type>`
