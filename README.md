@@ -9,29 +9,27 @@ Simple utilities and the like which may be useful to others
 
 >*Don't want to upload your Word document to the web just to turn it into a Markdown file?*
 
-Converts all files in current directory from one type to another.
+Converts all files in current directory from one type to another. < 20 lines of functional code.
 
-This simple script employs [pandoc](https://pandoc.org/) under the hood, and can handle dozens of file types. Must have  pypandoc installed: 
+Depends on pypandoc ([pandoc](https://pandoc.org/)), which does the conversion. Install it with:
 
 ```
 $ pip install pypandoc
 ```
 
-< 20 lines of functional code
-
-## Usage at the command line (Linux/Bash, cmd, powershell): 
-`$ python conv-doc <Input File Type> <Output File Type>`
-
-## Example:
-`$ python conv-doc docx md`
-
 ## Allowable Formats:
 
-Markdown, pdf, HTML, LaTeX, Word docx, ...
+Markdown, pdf, HTML, LaTeX, Word docx, many more...
 
 Full list [here](https://pandoc.org/MANUAL.html#general-options)
 
-## Sample Output
+## Usage at the Command Line (Linux/Bash, cmd, powershell): 
+`$ python conv-doc <Input File Type> <Output File Type>`
+
+### Example:
+`$ python conv-doc docx md`
+
+### Sample Output
 
 ```
 $ python conv-doc.py docx md
