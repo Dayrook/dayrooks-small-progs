@@ -14,7 +14,7 @@ Converts all files in current directory from one type to another.
 This simple script employs [pandoc](https://pandoc.org/) under the hood, and can handle dozens of file types. Must have  pypandoc installed: 
 
 ```
-$ pip install pypandoc`
+$ pip install pypandoc
 ```
 
 < 20 lines of functional code
