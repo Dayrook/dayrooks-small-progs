@@ -9,9 +9,13 @@ Simple utilities and the like which may be useful to others
 
 >*Don't want to upload your Word document to the web just to turn it into a Markdown file?*
 
-This simple script employs [pandoc](https://pandoc.org/) under the hood, and can handle dozens of file types.
-
 Converts all files in current directory from one type to another.
+
+This simple script employs [pandoc](https://pandoc.org/) under the hood, and can handle dozens of file types. Must have  pypandoc installed: 
+
+```
+$ pip install pypandoc`
+```
 
 < 20 lines of functional code
 
