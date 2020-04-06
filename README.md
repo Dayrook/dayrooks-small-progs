@@ -9,7 +9,7 @@ Simple utilities and the like which may be useful to others
 
 >*Don't want to upload your Word document to the web just to turn it into a Markdown file?*
 
-Converts all files in current directory from one type to another. < 20 lines of functional code.
+Converts all files in current directory from one type to another. Keeps original files. < 20 lines of functional code.
 
 Depends on pypandoc ([pandoc](https://pandoc.org/)), which does the conversion. Install it with:
 
